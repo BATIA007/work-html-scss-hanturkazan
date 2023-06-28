@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/datepicker.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/excursion.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <title>HanTurKazan</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="header__wrapper wrapper">
+        <div class="header__informs">
+          <a href="#" class="header__adress header__info">
+            <svg width="12" height="19" viewBox="0 0 12 19" fill="white">
+              <use href="./images/sprite.svg#adress" />
+            </svg>
+            г. Казань, ул. Проспект Мира, д. 123
+          </a>
+          <a href="tel:+79105900500" class="header__phone header__info">
+            <svg width="18" height="20" viewBox="0 0 18 20" fill="white">
+              <use href="./images/sprite.svg#phone" />
+            </svg>
+            +7 (910) 590-05-00
+          </a>
+          <button class="header__button trigger">Заказать звонок</button>
+        </div>
+        <div class="header__socials">
+          <a class="header__social" href="#">
+            <svg width="22" height="20" viewBox="0 0 22 20" fill="#E6E6E6">
+              <use href="./images/sprite.svg#telegram" />
+            </svg>
+          </a>
+          <a class="header__social" href="#">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="#E6E6E6">
+              <use href="./images/sprite.svg#whatsapp" />
+            </svg>
+          </a>
+        </div>
+        <div class="burger__trigger">
+          <div class="burger__button"></div>
+        </div>
+      </div>
+      <ul class="burger__list" style="height: 0">
+        <li class="burger__link">
+          <a href="individual.html" class="burger__item">Индивидуальные экскурсии</a>
+        </li>
+        <li class="burger__link">
+          <a href="index.html" class="burger__item">Расписание экскурсий</a>
+        </li>
+        <li class="burger__link">
+          <a href="reviews.html" class="burger__item">Отзывы</a>
+        </li>
+        <li class="burger__link">
+          <a href="#" class="burger__item">О нас</a>
+        </li>
+        <li class="burger__link">
+          <a href="#" class="burger__item">Контакты</a>
+        </li>
+        <li class="burger__link">
+          <a href="#" class="burger__item">Памятка туристам</a>
+        </li>
+      </ul>
+    </div>
+    <nav class="header__nav wrapper">
+      <a href="index.html" class="header__logo logo">
+        <svg width="56" height="54" viewBox="0 0 56 54" fill="none">
+          <use href="./images/sprite.svg#logo" />
+        </svg>
+        <svg width="159" height="37" viewBox="0 0 159 37" fill="black">
+          <use href="./images/sprite.svg#text" />
+        </svg>
+      </a>
+      <ul class="header__list">
+        <li class="header__link">
+          <a href="individual.html" class="header__item header__item-active">Индивидуальные экскурсии</a>
+        </li>
+        <li class="header__link">
+          <a href="index.html" class="header__item">Расписание экскурсий</a>
+        </li>
+        <li class="header__link">
+          <a href="reviews.html" class="header__item">Отзывы</a>
+        </li>
+        <li class="header__link">
+          <a href="#" class="header__item">О нас</a>
+        </li>
+        <li class="header__link">
+          <a href="#" class="header__item">Контакты</a>
+        </li>
+        <li class="header__link">
+          <a href="#" class="header__item">Памятка туристам</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="breadcrumbs">
+      <div class="wrapper breadcrumbs__wrapper">
+        <a href="index.html" class="breadcrumbs__link">Главная</a>
+        <svg class="breadcrumbs__arrow" width="20" height="10" viewBox="0 0 31 16">
+          <use href="images/sprite.svg#arrow" />
+        </svg>
+        <a href="individual.html" class="breadcrumbs__link">Индивидуальные экскурсии</a>
+        <svg class="breadcrumbs__arrow" width="20" height="10" viewBox="0 0 31 16">
+          <use href="images/sprite.svg#arrow" />
+        </svg>
+        <a href="excursion.html" class="breadcrumbs__link breadcrumbs__link-active">Индивидуальные экскурсии по Голубым
+          озерам из Казани
+        </a>
+      </div>
+    </div>
+    <div class="bg">
+      <section class="showing">
+        <div class="showing__wrapper wrapper">
+          <div class="showing__flex showing__flex-mob">
+            <div class="showing__right">
+              <div class="showing__rating star-rate">
+                <div class="showing__stars stars">
+                  <svg width="12" height="12" viewBox="0 0 12 12">
+                    <use href="./images/sprite.svg#star" />
+                  </svg>
+                  <svg width="12" height="12" viewBox="0 0 12 12">
+                    <use href="./images/sprite.svg#star" />
+                  </svg>
+                  <svg width="12" height="12" viewBox="0 0 12 12">
+                    <use href="./images/sprite.svg#star" />
+                  </svg>
+                  <svg width="12" height="12" viewBox="0 0 12 12">
+                    <use href="./images/sprite.svg#star" />
+                  </svg>
+                  <svg width="12" height="12" viewBox="0 0 12 12">
+                    <use href="./images/sprite.svg#star" />
+                  </svg>
+                </div>
+                <span class="showing__rating-number star-num">4.9</span>
+              </div>
+              <a href="#reviews" class="showing__reviews">30 отзывов</a>
+            </div>
+            <h1 class="showing__title">
+              Индивидуальная экскурсия по Голубым озерам из Казани
+            </h1>
+          </div>
+          <div class="showing__slider-left">
+            <div class="showing__slider-block">
+              <img id="image" width="672" height="482" src="images/index/lake.png" srcset="images/index/lake2.png 2x"
+                alt="slide" loading="lazy" />
+              <span class="showing__prev">
+                <svg width="10" height="14" viewBox="0 0 5 8" fill="#17AA00">
+                  <use href="images/sprite.svg#arrow-left" />
+                </svg>
+              </span>
+              <span class="showing__next">
+                <svg width="10" height="14" viewBox="0 0 5 8" fill="#17AA00">
+                  <use href="images/sprite.svg#arrow-right" />
+                </svg>
+              </span>
+            </div>
+            <div class="slider swiper showing__slider">
+              <div class="swiper-wrapper">
+                <img width="672" height="482" src="images/index/lake.png" srcset="images/index/lake2.png 2x" alt="slide"
+                  loading="lazy" class="swiper-slide showing__slide" />
+                <img width="672" height="482" src="images/index/lake.png" srcset="images/index/lake2.png 2x" alt="slide"
+                  loading="lazy" class="swiper-slide showing__slide" />
+                <img width="672" height="482" src="images/index/lake.png" srcset="images/index/lake2.png 2x" alt="slide"
+                  loading="lazy" class="swiper-slide showing__slide" />
+                <img width="672" height="482" src="images/index/lake.png" srcset="images/index/lake2.png 2x" alt="slide"
+                  loading="lazy" class="swiper-slide showing__slide" />
+                <img width="672" height="482" src="images/index/lake.png" srcset="images/index/lake2.png 2x" alt="slide"
+                  loading="lazy" class="swiper-slide showing__slide" />
+                <img width="672" height="482" src="images/index/lake.png" srcset="images/index/lake2.png 2x" alt="slide"
+                  loading="lazy" class="swiper-slide showing__slide" />
+                <img width="672" height="482" src="images/index/lake.png" srcset="images/index/lake2.png 2x" alt="slide"
+                  loading="lazy" class="swiper-slide showing__slide" />
+                <img width="672" height="482" src="images/index/lake.png" srcset="images/index/lake2.png 2x" alt="slide"
+                  loading="lazy" class="swiper-slide showing__slide" />
+              </div>
+            </div>
+          </div>
+          <div class="showing__info">
+            <div class="showing__flex showing__flex-pc">
+              <div class="showing__right">
+                <div class="showing__rating star-rate">
+                  <div class="showing__stars stars">
+                    <svg width="12" height="12" viewBox="0 0 12 12">
+                      <use href="./images/sprite.svg#star" />
+                    </svg>
+                    <svg width="12" height="12" viewBox="0 0 12 12">
+                      <use href="./images/sprite.svg#star" />
+                    </svg>
+                    <svg width="12" height="12" viewBox="0 0 12 12">
+                      <use href="./images/sprite.svg#star" />
+                    </svg>
+                    <svg width="12" height="12" viewBox="0 0 12 12">
+                      <use href="./images/sprite.svg#star" />
+                    </svg>
+                    <svg width="12" height="12" viewBox="0 0 12 12">
+                      <use href="./images/sprite.svg#star" />
+                    </svg>
+                  </div>
+                  <span class="showing__rating-number star-num">4.9</span>
+                </div>
+                <a href="#reviews" class="showing__reviews">30 отзывов</a>
+              </div>
+              <h1 class="showing__title">
+                Индивидуальная экскурсия по Голубым озерам из Казани
+              </h1>
+            </div>
+            <div class="showing__block">
+              <ul class="showing__list">
+                <li class="showing__link">
+                  <span class="showing__subtitle">Время проведения</span>
+                  <span class="showing__line"></span>
+                  <span class="showing__text">по договорённости</span>
+                </li>
+                <li class="showing__link">
+                  <span class="showing__subtitle">Место встречи </span>
+                  <span class="showing__line"></span>
+                  <span class="showing__text">по договорённости</span>
+                </li>
+                <li class="showing__link">
+                  <span class="showing__subtitle">Тип экскурсии</span>
+                  <span class="showing__line"></span>
+                  <span class="showing__text">Индивидуальная экскурсия</span>
+                </li>
+                <li class="showing__link">
+                  <span class="showing__subtitle">Длительность</span>
+                  <span class="showing__line"></span>
+                  <span class="showing__text">4 часа</span>
+                </li>
+                <li class="showing__link">
+                  <span class="showing__subtitle">Количество</span>
+                  <span class="showing__line"></span>
+                  <span class="showing__text">по запросу</span>
+                </li>
+                <li class="showing__link">
+                  <span class="showing__subtitle">Язык</span>
+                  <span class="showing__line"></span>
+                  <span class="showing__text">Русский</span>
+                </li>
+              </ul>
+              <h5 class="showing__prices">Цены на билеты:</h5>
+              <div class="showing__lists-container">
+                <ul class="showing__groups">
+                  <li class="showing__group">
+                    <span class="showing__group-text">Группа из
+                      <span class="showing__group-numbers">1 чел.</span>:</span>
+                    <span class="showing__line"></span>
+                    <span class="showing__price">900р.</span>
+                  </li>
+                  <li class="showing__group">
+                    <span class="showing__group-text">Группа из
+                      <span class="showing__group-numbers">2 чел.</span>:</span>
+                    <span class="showing__line"></span>
+                    <span class="showing__price">900р.</span>
+                  </li>
+                  <li class="showing__group">
+                    <span class="showing__group-text">Группа из
+                      <span class="showing__group-numbers">3 чел.</span>:</span>
+                    <span class="showing__line"></span>
+                    <span class="showing__price">900р.</span>
+                  </li>
+                  <li class="showing__group">
+                    <span class="showing__group-text">Группа из
+                      <span class="showing__group-numbers">4 чел.</span>:</span>
+                    <span class="showing__line"></span>
+                    <span class="showing__price">900р.</span>
+                  </li>
+                  <li class="showing__group">
+                    <span class="showing__group-text">Группа из
+                      <span class="showing__group-numbers">5 чел.</span>:</span>
+                    <span class="showing__line"></span>
+                    <span class="showing__price">900р.</span>
+                  </li>
+                  <li class="showing__group">
+                    <span class="showing__group-text">Группа из
+                      <span class="showing__group-numbers">6 чел.</span>:</span>
+                    <span class="showing__line"></span>
+                    <span class="showing__price">900р.</span>
+                  </li>
+                </ul>
+                <ul class="showing__groups">
+                  <li class="showing__group">
+                    <span class="showing__group-text">Группа из
+                      <span class="showing__group-numbers">7 чел.</span>:</span>
+                    <span class="showing__line"></span>
+                    <span class="showing__price">900р.</span>
+                  </li>
+                  <li class="showing__group">
+                    <span class="showing__group-text">Группа из
+                      <span class="showing__group-numbers">8 чел.</span>:</span>
+                    <span class="showing__line"></span>
+                    <span class="showing__price">900р.</span>
+                  </li>
+                  <li class="showing__group">
+                    <span class="showing__group-text">Группа из
+                      <span class="showing__group-numbers">9 чел.</span>:</span>
+                    <span class="showing__line"></span>
+                    <span class="showing__price">900р.</span>
+                  </li>
+                  <li class="showing__group">
+                    <span class="showing__group-text">Группа из
+                      <span class="showing__group-numbers">10 чел.</span>:</span>
+                    <span class="showing__line"></span>
+                    <span class="showing__price">900р.</span>
+                  </li>
+                  <li class="showing__group">
+                    <span class="showing__group-text">Группа из
+                      <span class="showing__group-numbers">11 чел.</span>:</span>
+                    <span class="showing__line"></span>
+                    <span class="showing__price">900р.</span>
+                  </li>
+                  <li class="showing__group">
+                    <span class="showing__group-text">Группа из
+                      <span class="showing__group-numbers">12 чел.</span>:</span>
+                    <span class="showing__line"></span>
+                    <span class="showing__price">900р.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <button class="button button-order trigger">
+              <svg width="21" height="21" viewBox="0 0 21 21" fill="white">
+                <use href="./images/sprite.svg#calendar" />
+              </svg>
+              Забронировать экскурсию
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="way">
+        <div class="way__title-block title-block">
+          <span class="line"></span>
+          <h2 class="title">Маршрут экскурсии</h2>
+        </div>
+        <div class="way__wrapper wrapper">
+          <div class="way__block">
+            <ul class="way__list">
+              <li class="way__link">
+                <svg width="21" height="33" viewBox="0 0 21 33">
+                  <use href="./images/sprite.svg#way" />
+                </svg>
+                <span class="way__text">Сбор группы<br />
+                  <a class="way__item" href="#">Метро "Кремлёвская"</a></span>
+              </li>
+              <li class="way__arrow">
+                <svg preserveAspectRatio="xMaxYMin slice" width="89" height="16" viewBox="0 0 89 16">
+                  <use href="./images/sprite.svg#way-arrow" />
+                </svg>
+              </li>
+              <li class="way__link">
+                <span class="way__circle"></span>
+                <span class="way__text">
+                  <a href="#" class="way__item way__item-underline">Старо-татарская слобода</a>
+                </span>
+              </li>
+              <li class="way__arrow">
+                <svg preserveAspectRatio="xMaxYMin slice" width="89" height="16" viewBox="0 0 89 16">
+                  <use href="./images/sprite.svg#way-arrow" />
+                </svg>
+              </li>
+              <li class="way__link">
+                <span class="way__circle way__circle-border"></span>
+                <span class="way__text">
+                  <a href="#" class="way__item">Мечеть Марджани</a>
+                </span>
+              </li>
+              <li class="way__arrow">
+                <svg preserveAspectRatio="xMaxYMin slice" width="89" height="16" viewBox="0 0 89 16">
+                  <use href="./images/sprite.svg#way-arrow" />
+                </svg>
+              </li>
+              <li class="way__link">
+                <svg width="21" height="33" viewBox="0 0 21 33">
+                  <use href="./images/sprite.svg#way" />
+                </svg>
+                <span class="way__text">Конец экскурсии
+                  <a class="way__item" href="#">Метро "Кремлёвская"</a></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="seo">
+        <div class="title-block seo__title-block">
+          <span class="line"></span>
+          <h2 class="title">Об экскурсии</h2>
+        </div>
+        <div class="seo__wrapper wrapper">
+          <p class="seo__text seo__text-margin">
+            Отправляясь на экскурсию по Казани без Кремля, вы окунетесь в
+            стародавний мир и пройдетесь по всем историческим местам. Ведь
+            Казань является таким городом, в котором как в большом казане
+            смешались религия, история и культура. На обзорной экскурсии Вы
+            прочувствуете самобытность и красоту столицы Республики Татарстан,
+            окунетесь в незабываемую атмосферу многонационального города,
+            прикоснувшись к самому сердцу древней истории.
+          </p>
+          <p class="seo__text">
+            Казань - город с тысячелетней историей. За 1000 лет город
+            превратился в культурно-образовательный, спортивный центр - третью
+            столицу России. Здесь переплелись история и современность, дружно
+            уживаются разные национальности и вероисповедания.
+          </p>
+        </div>
+      </section>
+      <section class="map">
+        <div class="title-block map__title-block">
+          <span class="line"></span>
+          <h2 class="title">Место встречи</h2>
+        </div>
+        <iframe loading="lazy"
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3Affcffe47d08441e54aadd94a7f6e32397a89500473a2da3427dd17af07835021&amp;source=constructor"
+          width="1170" height="562" frameborder="0"></iframe>
+        <div class="wrapper">
+          <h5 class="map__important">Важная информация:</h5>
+          <p class="map__text-red">
+            Полная экскурсии оплата не позднее чем за сутки до экскурсии.<br />
+            Внимание!
+          </p>
+          <p class="map__text">
+            Обязательная доплата: радиогиды для хорошей слышимости
+            экскурсовода в условиях соблюдения правил дистанции 1,5 метра –
+            100 руб/чел.
+          </p>
+          <nav class="map__nav">
+            <a href="#" class="map__link map__link-active">Индивидуальные экскурсии</a>
+            <a href="#" class="map__link">Групповые экскурсии</a>
+            <a href="#" class="map__link">Автобусные экскурсии</a>
+          </nav>
+        </div>
+      </section>
+      <section class="catalog">
+        <div class="title-block catalog__title-block">
+          <span class="line"></span>
+          <h2 class="title">Вас может заинтересовать</h2>
+        </div>
+        <div class="catalog__wrapper wrapper">
+          <div class="catalog__list">
+            <a href="excursion2.html" class="catalog__item">
+              <div class="catalog__top">
+                <div class="catalog__flex">
+                  <div class="catalog__discount">
+                    <span class="catalog__discount-text">скидка</span>
+                    <span class="catalog__discount-price">30%</span>
+                  </div>
+                  <div class="catalog__right">
+                    <div class="catalog__rating star-rate">
+                      <div class="catalog__stars stars">
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                      </div>
+                      <span class="catalog__rating-number star-num">4.9</span>
+                    </div>
+                    <span class="catalog__reviews">30 отзывов</span>
+                  </div>
+                </div>
+                <img class="catalog__image" src="./images/index/card.png" alt="card-image" />
+              </div>
+              <div class="catalog__main">
+                <h5 class="catalog__title">
+                  Экскурсия "Огни ночной Казани" — вечерняя экскурсия по
+                  Казани
+                </h5>
+                <ul class="catalog__features">
+                  <li class="catalog__feature">2 часа</li>
+                  <li class="catalog__feature">Ежедневно</li>
+                  <li class="catalog__feature">Автобусная</li>
+                </ul>
+                <div class="catalog__bottom">
+                  <span class="catalog__price">2 500р</span>
+                  <svg width="31" height="16" viewBox="0 0 31 16">
+                    <use href="./images/sprite.svg#arrow" />
+                  </svg>
+                </div>
+              </div>
+            </a>
+            <a href="excursion2.html" class="catalog__item">
+              <div class="catalog__top">
+                <div class="catalog__flex">
+                  <div class="catalog__discount">
+                    <span class="catalog__discount-text">скидка</span>
+                    <span class="catalog__discount-price">30%</span>
+                  </div>
+                  <div class="catalog__right">
+                    <div class="catalog__rating star-rate">
+                      <div class="catalog__stars stars">
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                      </div>
+                      <span class="catalog__rating-number star-num">4.9</span>
+                    </div>
+                    <span class="catalog__reviews">30 отзывов</span>
+                  </div>
+                </div>
+                <img class="catalog__image" src="./images/index/card.png" alt="card-image" />
+              </div>
+              <div class="catalog__main">
+                <h5 class="catalog__title">
+                  Экскурсия "Огни ночной Казани" — вечерняя экскурсия по
+                  Казани
+                </h5>
+                <ul class="catalog__features">
+                  <li class="catalog__feature">2 часа</li>
+                  <li class="catalog__feature">Ежедневно</li>
+                  <li class="catalog__feature">Автобусная</li>
+                </ul>
+                <div class="catalog__bottom">
+                  <span class="catalog__price">2 500р</span>
+                  <svg width="31" height="16" viewBox="0 0 31 16">
+                    <use href="./images/sprite.svg#arrow" />
+                  </svg>
+                </div>
+              </div>
+            </a>
+            <a href="excursion2.html" class="catalog__item">
+              <div class="catalog__top">
+                <div class="catalog__flex">
+                  <div class="catalog__discount">
+                    <span class="catalog__discount-text">скидка</span>
+                    <span class="catalog__discount-price">30%</span>
+                  </div>
+                  <div class="catalog__right">
+                    <div class="catalog__rating star-rate">
+                      <div class="catalog__stars stars">
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                      </div>
+                      <span class="catalog__rating-number star-num">4.9</span>
+                    </div>
+                    <span class="catalog__reviews">30 отзывов</span>
+                  </div>
+                </div>
+                <img class="catalog__image" src="./images/index/card.png" alt="card-image" />
+              </div>
+              <div class="catalog__main">
+                <h5 class="catalog__title">
+                  Экскурсия "Огни ночной Казани" — вечерняя экскурсия по
+                  Казани
+                </h5>
+                <ul class="catalog__features">
+                  <li class="catalog__feature">2 часа</li>
+                  <li class="catalog__feature">Ежедневно</li>
+                  <li class="catalog__feature">Автобусная</li>
+                </ul>
+                <div class="catalog__bottom">
+                  <span class="catalog__price">2 500р</span>
+                  <svg width="31" height="16" viewBox="0 0 31 16">
+                    <use href="./images/sprite.svg#arrow" />
+                  </svg>
+                </div>
+              </div>
+            </a>
+            <a href="excursion2.html" class="catalog__item">
+              <div class="catalog__top">
+                <div class="catalog__flex">
+                  <div class="catalog__discount">
+                    <span class="catalog__discount-text">скидка</span>
+                    <span class="catalog__discount-price">30%</span>
+                  </div>
+                  <div class="catalog__right">
+                    <div class="catalog__rating star-rate">
+                      <div class="catalog__stars stars">
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                          <use href="./images/sprite.svg#star" />
+                        </svg>
+                      </div>
+                      <span class="catalog__rating-number star-num">4.9</span>
+                    </div>
+                    <span class="catalog__reviews">30 отзывов</span>
+                  </div>
+                </div>
+                <img class="catalog__image" src="./images/index/card.png" alt="card-image" />
+              </div>
+              <div class="catalog__main">
+                <h5 class="catalog__title">
+                  Экскурсия "Огни ночной Казани" — вечерняя экскурсия по
+                  Казани
+                </h5>
+                <ul class="catalog__features">
+                  <li class="catalog__feature">2 часа</li>
+                  <li class="catalog__feature">Ежедневно</li>
+                  <li class="catalog__feature">Автобусная</li>
+                </ul>
+                <div class="catalog__bottom">
+                  <span class="catalog__price">2 500р</span>
+                  <svg width="31" height="16" viewBox="0 0 31 16">
+                    <use href="./images/sprite.svg#arrow" />
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+          <a href="timetable.html" class="catalog__button-wrapper button button-x">
+            <svg width="21" height="21" viewBox="0 0 21 21" fill="white">
+              <use href="./images/sprite.svg#calendar" />
+            </svg>
+            Посмотреть расписание экскурсий
+          </a>
+        </div>
+      </section>
+      <section class="reviews" id="reviews">
+        <div class="title-block reviews__title-block">
+          <span class="line"></span>
+          <h2 class="title">отзывы наших клиентов</h2>
+        </div>
+        <div class="reviews__wrapper wrapper">
+          <div class="reviews__wrap-left">
+            <div class="reviews__list">
+              <article class="reviews__item">
+                <div class="reviews__flex">
+                  <span class="reviews__name">Семёнова Ольга</span>
+                  <div class="reviews__rating star-rate">
+                    <div class="reviews__stars stars">
+                      <svg width="10" height="10" viewBox="0 0 12 12">
+                        <use href="./images/sprite.svg#star" />
+                      </svg>
+                      <svg width="10" height="10" viewBox="0 0 12 12">
+                        <use href="./images/sprite.svg#star" />
+                      </svg>
+                      <svg width="10" height="10" viewBox="0 0 12 12">
+                        <use href="./images/sprite.svg#star" />
+                      </svg>
+                      <svg width="10" height="10" viewBox="0 0 12 12">
+                        <use href="./images/sprite.svg#star" />
+                      </svg>
+                      <svg width="10" height="10" viewBox="0 0 12 12">
+                        <use href="./images/sprite.svg#star" />
+                      </svg>
+                    </div>
+                    <span class="reviews__rating-number star-num">4.9</span>
+                  </div>
+                </div>
+                <p class="reviews__text">
+                  Выбрать и купить экскурсии в Казани окрестностям на свой
+                  вкус очень просто: бронируйте онлайн на нашем сайте и
+                  получайте удовольствие от автобусных, пешеходных и речных
+                  экскурсий по третьей столице России! Туристическая компания
+                  «Экскурсионная Казань» обещает Вам море незабываемых эмоций
+                  и впечатлений!
+                </p>
+              </article>
+              <article class="reviews__item">
+                <div class="reviews__flex">
+                  <span class="reviews__name">Семёнова Ольга</span>
+                  <div class="reviews__rating star-rate">
+                    <div class="reviews__stars stars">
+                      <svg width="10" height="10" viewBox="0 0 12 12">
+                        <use href="./images/sprite.svg#star" />
+                      </svg>
+                      <svg width="10" height="10" viewBox="0 0 12 12">
+                        <use href="./images/sprite.svg#star" />
+                      </svg>
+                      <svg width="10" height="10" viewBox="0 0 12 12">
+                        <use href="./images/sprite.svg#star" />
+                      </svg>
+                      <svg width="10" height="10" viewBox="0 0 12 12">
+                        <use href="./images/sprite.svg#star" />
+                      </svg>
+                      <svg width="10" height="10" viewBox="0 0 12 12">
+                        <use href="./images/sprite.svg#star" />
+                      </svg>
+                    </div>
+                    <span class="reviews__rating-number star-num">4.9</span>
+                  </div>
+                </div>
+                <p class="reviews__text">
+                  Выбрать и купить экскурсии в Казани окрестностям на свой
+                  вкус очень просто: бронируйте онлайн на нашем сайте и
+                  получайте удовольствие от автобусных, пешеходных и речных
+                  экскурсий по третьей столице России! Туристическая компания
+                  «Экскурсионная Казань» обещает Вам море незабываемых эмоций
+                  и впечатлений! Туристическая компания «Экскурсионная Казань»
+                  обещает Вам море незабываемых эмоций и
+                  впечатлений!Туристическая компания «Экскурсионная Казань»
+                  обещает Вам море незабываемых эмоций и впечатлений!
+                </p>
+              </article>
+            </div>
+            <ul class="links">
+              <li class="links__prev">
+                <a href="#" class="links__item">
+                  <svg width="5" height="8" viewBox="0 0 5 8" fill="#17AA00">
+                    <use href="images/sprite.svg#arrow-left" />
+                  </svg>
+                </a>
+              </li>
+              <li class="links__link">
+                <a href="#" class="links__item">1</a>
+              </li>
+              <li class="links__link links__hide links__link-active">
+                <a href="#" class="links__item">2</a>
+              </li>
+              <li class="links__link links__hide">
+                <a href="#" class="links__item">3</a>
+              </li>
+              <li class="links__link links__hide">
+                <a href="#" class="links__item">4</a>
+              </li>
+              <li class="links__link links__hide">
+                <a href="#" class="links__item">5</a>
+              </li>
+              <li class="links__link links__hide">
+                <a href="#" class="links__item">6</a>
+              </li>
+              <li class="links__link links__hide">
+                <a href="#" class="links__item">7</a>
+              </li>
+              <li class="links__link links__hide">
+                <a href="#" class="links__item">8</a>
+              </li>
+              <li class="links__link links__hide">
+                <a href="#" class="links__item">9</a>
+              </li>
+              <li class="links__link links__hide">
+                <a href="#" class="links__item">10</a>
+              </li>
+              <li class="links__link links__hide">
+                <a href="#" class="links__item">11</a>
+              </li>
+              <li class="links__link">
+                <a href="#" class="links__item">12</a>
+              </li>
+              <li class="links__next">
+                <a href="#" class="links__item">
+                  <svg width="5" height="8" viewBox="0 0 5 8" fill="#17AA00">
+                    <use href="images/sprite.svg#arrow-right" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <form class="form">
+            <div class="form__top">
+              <h3 class="form__title">Оставьте свой отзыв</h3>
+            </div>
+            <div class="form__main">
+              <div class="form__rating">
+                <div class="form__stars">
+                  <svg data-value="1" class="star-active" width="13" height="13" viewBox="0 0 13 13">
+                    <use href="./images/sprite.svg#star" />
+                  </svg>
+                  <svg data-value="2" width="13" height="13" viewBox="0 0 13 13">
+                    <use href="./images/sprite.svg#star" />
+                  </svg>
+                  <svg data-value="3" width="13" height="13" viewBox="0 0 13 13">
+                    <use href="./images/sprite.svg#star" />
+                  </svg>
+                  <svg data-value="4" width="13" height="13" viewBox="0 0 13 13">
+                    <use href="./images/sprite.svg#star" />
+                  </svg>
+                  <svg data-value="5" width="13" height="13" viewBox="0 0 13 13">
+                    <use href="./images/sprite.svg#star" />
+                  </svg>
+                </div>
+                <span class="form__rating-text">Оценка</span>
+              </div>
+              <div class="form__inputs">
+                <input required placeholder="Ваше имя" type="text" class="form__name" />
+                <textarea required placeholder="Ваш отзыв" class="form__textarea"></textarea>
+                <input required checked id="check" type="checkbox" class="form__input" />
+                <label for="check" class="form__checkbox">
+                  <span class="form__check"></span>
+                  Я согласен с правилами размещения сообщений на сайте.
+                </label>
+              </div>
+              <button type="button" class="button">Оставить отзыв</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <div class="modal modal-order">
+      <div class="modal-container">
+        <div class="modal__wrapper">
+          <div class="modal__top">
+            Индивидуальная экскурсия в Свияжск из Казани — "Настоящий
+            град-музей" + Храм всех религий
+            <span class="modal__close">Х</span>
+          </div>
+          <div class="modal__main">
+            <form class="order">
+              <fieldset class="order__field">
+                <fieldset class="order__input-wrapper">
+                  <span class="order__input-text">
+                    Дата экскурсии<span class="order__red">*</span>
+                  </span>
+                  <input required placeholder="01.01.2021" type="text" class="order__input" id="picker" readonly
+                    autocomplete="off" />
+                </fieldset>
+                <fieldset class="order__input-wrapper">
+                  <span class="order__input-text">
+                    Имя туриста<span class="order__red">*</span>
+                  </span>
+                  <input required placeholder="Ваше имя" type="text" class="order__input" />
+                </fieldset>
+              </fieldset>
+              <fieldset class="order__field">
+                <fieldset class="order__input-wrapper select">
+                  <span class="order__input-text">
+                    Время экскурсии<span class="order__red">*</span>
+                  </span>
+                  <input readonly required placeholder="Укажите время" type="text" class="order__input" />
+                  <button class="select__button" type="button"></button>
+                  <ul class="select__list">
+                    <li class="select__link">13:30</li>
+                    <li class="select__link">23:30</li>
+                  </ul>
+                </fieldset>
+                <fieldset class="order__input-wrapper">
+                  <span class="order__input-text">
+                    Телефон туриста<span class="order__red">*</span>
+                  </span>
+                  <input required placeholder="+7 (   ) ___-__-__" type="tel" class="order__input" />
+                </fieldset>
+              </fieldset>
+              <fieldset class="order__field">
+                <fieldset class="order__input-wrapper">
+                  <span class="order__input-text">
+                    Кол-во человек<span class="order__red">*</span>
+                  </span>
+                  <div class="order__numbers">
+                    <button type="button" class="order__minus">-</button>
+                    <input type="text" inputmode="numeric" class="order__quantity" value="1" />
+                    <button type="button" class="order__plus">+</button>
+                  </div>
+                </fieldset>
+              </fieldset>
+              <input required checked id="checkbox2" type="checkbox" class="modal__check-input" />
+              <label for="checkbox2" class="modal__label order__label">
+                <span class="modal__check"></span>
+                Я согласен с правилами размещения сообщений на сайте.
+              </label>
+              <button type="submit" class="button order__button">
+                Забронировать индивидуальную экскурсию
+              </button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-main">
+      <div class="modal-container">
+        <div class="modal__wrapper">
+          <div class="modal__top">
+            Заказать обратный звонок <span class="modal__close">Х</span>
+          </div>
+          <div class="modal__main">
+            <p class="modal__description">
+              Заполните форму и мы свяжемся с Вами в ближайшее время!
+            </p>
+            <form class="modal__form">
+              <input placeholder="Ваше имя*" required type="text" class="modal__name" />
+              <input placeholder="Ваш телефон*" type="tel" required class="modal__phone" />
+              <input required checked id="checkbox" type="checkbox" class="modal__check-input" />
+              <label for="checkbox" class="modal__label">
+                <span class="modal__check"></span>
+                Я согласен с правилами размещения сообщений на сайте.
+              </label>
+              <button class="modal__button button">
+                Отправить обратный звонок
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="tel:+79105900500" class="nav__item nav__phone">
+        <svg width="10" height="10" viewBox="0 0 10 10">
+          <use href="./images/sprite.svg#phone-nav" />
+        </svg>
+        Позвонить
+      </a>
+      <div class="nav__item nav__menu">
+        <span class="nav__burger"></span>
+        Меню
+      </div>
+      <div class="nav__item nav__order trigger">Забронировать экскурсию</div>
+      <a href="#" class="nav__item nav__chat">
+        <svg width="17" height="17" viewBox="0 0 17 17">
+          <use href="./images/sprite.svg#nav-phone" />
+        </svg>
+      </a>
+    </nav>
+    <button class="nav__scroll">
+      <svg width="8" height="16" viewBox="0 0 8 16">
+        <use href="./images/sprite.svg#line-arrow" />
+      </svg>
+    </button>
+    <div class="menu">
+      <div class="menu__wrapper wrapper">
+        <span class="menu__close"></span>
+        <ul class="menu__list">
+          <li class="menu__link">
+            <a href="individual.html" class="menu__item">Индивидуальные экскурсии</a>
+          </li>
+          <li class="menu__link">
+            <a href="index.html" class="menu__item">Расписание экскурсий</a>
+          </li>
+          <li class="menu__link">
+            <a href="reviews.html" class="menu__item">Отзывы</a>
+          </li>
+          <li class="menu__link"><a href="#" class="menu__item">О нас</a></li>
+          <li class="menu__link">
+            <a href="#" class="menu__item">Контакты</a>
+          </li>
+          <li class="menu__link">
+            <a href="#" class="menu__item">Памятка туристам</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper wrapper">
+      <nav class="footer__nav header__nav">
+        <a href="index.html" class="header__logo logo">
+          <svg width="56" height="54" viewBox="0 0 56 54" fill="none">
+            <use href="./images/sprite.svg#logo" />
+          </svg>
+          <svg width="159" height="37" viewBox="0 0 159 37" fill="white">
+            <use href="./images/sprite.svg#text" />
+          </svg>
+        </a>
+        <ul class="header__list footer__list">
+          <li class="header__link">
+            <a href="individual.html" class="footer__item header__item">Индивидуальные экскурсии</a>
+          </li>
+          <li class="header__link">
+            <a href="index.html" class="footer__item header__item">Расписание экскурсий</a>
+          </li>
+          <li class="header__link">
+            <a href="reviews.html" class="footer__item header__item">Отзывы</a>
+          </li>
+          <li class="header__link">
+            <a href="#" class="footer__item header__item">О нас</a>
+          </li>
+          <li class="header__link">
+            <a href="#" class="footer__item header__item">Контакты</a>
+          </li>
+          <li class="header__link">
+            <a href="#" class="footer__item header__item">Памятка туристам</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__bottom">
+        <div class="footer__left">
+          <a href="tel:+79105900500" class="header__phone header__info footer__phone">
+            <svg width="18" height="20" viewBox="0 0 18 20" fill="white">
+              <use href="./images/sprite.svg#phone" />
+            </svg>
+            +7 (910) 590-05-00
+          </a>
+          <button class="header__button trigger">Заказать звонок</button>
+        </div>
+        <div class="footer__right">
+          <a href="#" class="header__adress header__info footer__adress">
+            <svg width="12" height="19" viewBox="0 0 12 19" fill="white">
+              <use href="./images/sprite.svg#adress" />
+            </svg>
+            г. Казань, ул. Проспект Мира, д. 123
+          </a>
+          <div class="header__socials footer__socials">
+            <a class="header__social" href="#">
+              <svg width="22" height="20" viewBox="0 0 22 20" fill="#E6E6E6">
+                <use href="./images/sprite.svg#telegram" />
+              </svg>
+            </a>
+            <a class="header__social" href="#">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="#E6E6E6">
+                <use href="./images/sprite.svg#whatsapp" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/datepicker-full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/locales/ru.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/swiper.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
